@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    details > summary {
+        list-style-type: "+";
+    }
+    details[open] > summary {
+        list-style-type: "-";
+    }
+
+    details {
+        border-bottom: 2px solid #F67015;
+        padding: 2rem;
+
+    }
+}

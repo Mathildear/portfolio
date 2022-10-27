@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mathilde' portfolio</title>
+  </head>
+  <body>
+    <main>
+      <section
+        class="flex flex-col border-b-2 border-red-600 lg:h-screen lg:flex-row"
+      >
+        <div
+          class="flex flex-col items-center justify-center md:h-screen lg:w-1/2"
+        >
+          <picture
+            class="mb-7 mt-20 flex w-3/5 flex-col items-center border-2 border-red-600 sm:w-2/5 md:w-1/4 lg:hidden"
+          >
+            <source
+              class=""
+              srcset="img/avif/billedeafmig.avif"
+              type="image/avif"
+            />
+            <img
+              class="w-full"
+              src="img/webp/billedeafmig.webp"
+              alt="Billede af mig til mobilskærm"
+            />
+          </picture>
+
+          <div>
+            <h1 class="font-header1 text-4xl md:text-6xl lg:text-8xl">
+              Hi<span class="text-orange-500 ">,</span> I am <br />Mathilde
+            </h1>
+            <ul
+              class="flex flex-col justify-evenly pt-8 pb-20 font-header1 text-xl md:flex-row"
+            >
+              <li class="cursor-pointer p-3 font-font2 hover:text-orange-500">
+                <a href="#aboutsection">About</a>
+              </li>
+              <li class="cursor-pointer p-3 font-font2 hover:text-orange-500">
+                <a href="#projectsection">Projects</a>
+              </li>
+
+              <li class="cursor-pointer p-3 font-font2 hover:text-orange-500">
+                <a href="#contactsection">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="relative hidden h-screen w-1/2 items-center justify-center lg:visible lg:flex"
+        >
+          <img class="w-7xl absolute -z-10" src="img/linjer.svg" alt="linjer" />
+          <picture
+            class="z-10 flex w-1/2 flex-col items-center border-2 border-red-600"
+          >
+            <source
+              class=""
+              srcset="img/avif/billedeafmig.avif"
+              type="image/avif"
+            />
+            <img
+              class="w-full"
+              src="img/webp/billedeafmig.webp"
+              alt="Billede af mig"
+            />
+          </picture>
+        </div>
+      </section>
+      <section
+        id="aboutsection"
+        class="flex items-center border-b-2 border-red-600 bg-white py-20 md:h-screen"
+      >
+        <div class="flex flex-col md:flex-row">
+          <div class="flex w-2/3 flex-col sm:pl-11 md:w-1/2">
+            <h2 class="pb-11 font-font2 text-2xl sm:text-4xl md:pb-8 lg:pl-36">
+              About
+            </h2>
+            <p class="w-fit pb-5 lg:w-2/3 lg:pl-36">
+              My name is Mathilde and I am a
+              <span class="font-bold">multimedia designer</span>.<br />
+              I am passionated about
+              <span class="font-bold">creating websites</span> that fulfill
+              customers goals while being easy to understand and navigate for
+              the users.
+            </p>
+            <p class="w-fit pb-5 lg:w-2/3 lg:pl-36">
+              Currently I'm studying at KEA - Københavns Erhvervsakademi where
+              my election is <span class="font-bold">digital design</span>.
+            </p>
+          </div>
+          <div class="flex flex-col items-center justify-center md:w-1/2">
+            <h3 class="pb-8 font-font2 text-lg md:text-2xl">
+              Programs I can navigate
+            </h3>
+            <div
+              class="grid w-1/2 grid-cols-3 items-center justify-center gap-5 sm:w-72 md:w-4/5"
+            >
+              <div class="flex justify-center">
+                <img
+                  class="hover:scale-105"
+                  src="img/svg/file-icons_adobe-xd.svg"
+                  alt="XD"
+                />
+              </div>
+
+              <div class="flex justify-center">
+                <img
+                  class="hover:scale-105"
+                  src="img/svg/akar-icons_html-fill.svg"
+                  alt="HTML"
+                />
+              </div>
+              <div class="flex justify-center">
+                <img
+                  class="hover:scale-105"
+                  src="img/svg/akar-icons_javascript-fill.svg"
+                  alt="JS"
+                />
+              </div>
+              <div class="flex justify-center">
+                <img
+                  class="hover:scale-105"
+                  src="img/svg/bi_wordpress.svg"
+                  alt="wordpress"
+                />
+              </div>
+
+              <div class="flex justify-center">
+                <img
+                  class="hover:scale-105"
+                  src="img/svg/file-icons_adobe-illustrator.svg"
+                  alt="illustrator"
+                />
+              </div>
+              <div class="flex justify-center">
+                <img
+                  class="hover:scale-105"
+                  src="img/svg/bxl_tailwind-css.svg"
+                  alt="tailwind"
+                />
+              </div>
+              <div class="flex justify-center">
+                <img
+                  class="hover:scale-105"
+                  src="img/svg/file-icons_adobe-photoshop.svg"
+                  alt="photoshop"
+                />
+              </div>
+              <div class="flex justify-center">
+                <img
+                  class="hover:scale-105"
+                  src="img/svg/gg_figma.svg"
+                  alt="figma"
+                />
+              </div>
+              <div class="flex justify-center">
+                <img
+                  class="hover:scale-105"
+                  src="img/svg/cib_filezilla.svg"
+                  alt="filezilla"
+                />
+              </div>
+              <div class="flex justify-center">
+                <img
+                  class="hover:scale-105"
+                  src="img/svg/cib_visual-studio-code.svg"
+                  alt="vscode"
+                />
+              </div>
+              <div class="flex justify-center">
+                <img
+                  class="hover:scale-105"
+                  src="img/svg/file-icons_adobe-indesign.svg"
+                  alt="indesign"
+                />
+              </div>
+              <div class="flex justify-center">
+                <img
+                  class="hover:scale-105"
+                  src="img/svg/akar-icons_css-fill.svg"
+                  alt="CSS"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="projectsection"
+        class="border-b-2 border-red-600 bg-white py-20"
+      >
+        <div class="">
+          <div class="pl-8 md:pl-36">
+            <h2 class="pb-5 font-font2 text-2xl sm:text-4xl md:pb-8">
+              Projects
+            </h2>
+            <h3 class="pb-8 font-font2 text-lg md:text-3xl">Kræss</h3>
+          </div>
+          <div class="grid gap-10 md:grid-cols-2">
+            <div class="mx-8 flex items-center">
+              <section
+                id="splide1"
+                class="splide"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <picture class="flex flex-col items-center">
+                        <source
+                          class=""
+                          srcset="img/avif/projectkraess.avif"
+                          type="image/avif"
+                        />
+                        <img
+                          class="w-full"
+                          src="img/webp/projectkraess.webp"
+                          alt="mit redesign af kraess' homepage"
+                        />
+                      </picture>
+                    </li>
+                    <li class="splide__slide">
+                      <picture class="flex flex-col items-center">
+                        <source
+                          class=""
+                          srcset="img/avif/kraeskunstnerpage.avif"
+                          type="image/avif"
+                        />
+                        <img
+                          class="w-full"
+                          src="img/webp/kraeskunstnerpage.webp"
+                          alt="mit redesign af kraess' kunstnerside"
+                        />
+                      </picture>
+                    </li>
+                    <li class="splide__slide">
+                      <picture class="flex flex-col items-center">
+                        <source
+                          class=""
+                          srcset="img/avif/kraessgiftideas.avif"
+                          type="image/avif"
+                        />
+                        <img
+                          class="w-full"
+                          src="img/webp/kraessgiftideas.webp"
+                          alt="mit redesign af kraess' gift ideas side"
+                        />
+                      </picture>
+                    </li>
+                    <li class="splide__slide">
+                      <picture class="flex flex-col items-center">
+                        <source
+                          class=""
+                          srcset="img/avif/kraessproduktside.avif"
+                          type="image/avif"
+                        />
+                        <img
+                          class="w-full"
+                          src="img/webp/kraessproduktside.webp"
+                          alt="mit redesign af kraess' produktside"
+                        />
+                      </picture>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+            <div class="mx-8">
+              <details>
+                <summary class="cursor-pointer font-font2 text-lg md:text-xl">
+                  <span class="pl-3 md:pl-6">What they asked for</span>
+                </summary>
+                <p class="pt-5">
+                  For this school project I was assigned to find a company which
+                  current website I could optimize. The company asked
+                  specifically to create content and to come up with a
+                  newsletter strategy.
+                </p>
+              </details>
+              <details>
+                <summary class="cursor-pointer font-font2 text-lg md:text-xl">
+                  <span class="pl-3 md:pl-6">My role</span>
+                </summary>
+                <p class="pt-5">
+                  <span class="font-semibold">As a UX Designer</span> I did
+                  research on the sender, user and the market. I did some
+                  prototyping, created personas and created tests to check if my
+                  ideas was working and what could be optimized.<br /><br />
+                  <span class="font-semibold">As a UI Designer</span> I did the
+                  ideation part to come up with strong design- and social media
+                  strategies. I dived into finding fonts and colors as well as
+                  creating graphic elements.<br /><br />
+                  <span class="font-semibold">As a Web Developer</span> I stated
+                  building the website with HTML and CSS. For the product
+                  database i used Wordpress Rest API and for some special
+                  elements I used a libary named Splide.<br /><br />
+                  <span class="font-semibold">As a Content Creator</span> I
+                  stated created two videos for them to post on their instagram,
+                  and took some product pictures for the productview on the
+                  website. I also created a design for a newsletter format.
+                </p>
+              </details>
+
+              <details>
+                <summary class="cursor-pointer font-font2 text-lg md:text-xl">
+                  <span class="pl-3 md:pl-6">Solution</span>
+                </summary>
+                <div class="flex flex-col">
+                  <p class="pt-5">
+                    The website ended up with a whole new online identity, as
+                    their current websolution did not match their atmosphere in
+                    the physical store.
+                  </p>
+                </div>
+              </details>
+              <a class="flex justify-center" href="https://mdesign.dk/kraess/"
+                ><div
+                  class="font-semmibold mt-10 w-48 bg-gradient-to-b from-red-600 to-orange-500 px-4 py-3 text-center text-white"
+                >
+                  See the website here
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="flex h-screen items-center">
+          <div>
+            <h3 class="pb-8 pl-7 font-font2 text-lg md:pl-36 md:text-3xl">
+              My game
+            </h3>
+            <div class="grid gap-10 md:grid-cols-2">
+              <div class="mx-8">
+                <details>
+                  <summary class="cursor-pointer font-font2 text-lg md:text-xl">
+                    <span class="pl-3 md:pl-6">What they asked for</span>
+                  </summary>
+                  <p class="pt-5">
+                    For this school project I was assigned to create my own
+                    single-screen "clicker" game from scratch. Some of the
+                    requirements were that all graphics schould be drawn by me
+                    and that I scould record and edit sounds myself. Further
+                    more I must create it using only HTML, CSS and JavaScript.
+                  </p>
+                </details>
+                <details>
+                  <summary class="cursor-pointer font-font2 text-lg md:text-xl">
+                    <span class="pl-3 md:pl-6">My role</span>
+                  </summary>
+                  <p class="pt-5">
+                    <span class="font-semibold">As a UX Designer</span> I did
+                    tests on the game to see if it was intuitively made for
+                    users, and if they were succesfull in playing.<br /><br />
+                    <span class="font-semibold">As a UI Designer</span> I did
+                    the ideation part to come up with a fundamental theme for
+                    the game. I also used Illustrator to draw all the graphic
+                    elements.<br /><br />
+                    <span class="font-semibold">As a Web Developer</span> I
+                    started building the structure in HTML. I used JS to create
+                    the animations and the click-events to start next animaiton.
+                    CSS was used for placements.
+                  </p>
+                </details>
+
+                <details>
+                  <summary class="cursor-pointer font-font2 text-lg md:text-xl">
+                    <span class="pl-3 md:pl-6">Solution</span>
+                  </summary>
+                  <div class="flex flex-col">
+                    <p class="pt-5">
+                      For the solution I based the theme on a Netflix show that
+                      was trending called Squid Game.
+                    </p>
+                  </div>
+                </details>
+                <a
+                  class="flex justify-center"
+                  href="https://mdesign.dk/squid_game/"
+                  ><div
+                    class="font-semmibold mt-10 w-48 bg-gradient-to-b from-red-600 to-orange-500 px-4 py-3 text-center text-white"
+                  >
+                    See the website here
+                  </div></a
+                >
+              </div>
+              <div class="-order-1 mx-8 flex items-center md:order-1">
+                <section
+                  id="splide2"
+                  class="splide"
+                  aria-label="Splide Basic HTML Example"
+                >
+                  <div class="splide__track">
+                    <ul class="splide__list">
+                      <li class="splide__slide">
+                        <picture class="flex flex-col items-center">
+                          <source
+                            class=""
+                            srcset="img/avif/squidgame1.avif"
+                            type="image/avif"
+                          />
+                          <img
+                            class="w-full"
+                            src="img/webp/squidgame1.webp"
+                            alt="mit spil 1"
+                          />
+                        </picture>
+                      </li>
+                      <li class="splide__slide">
+                        <picture class="flex flex-col items-center">
+                          <source
+                            class=""
+                            srcset="img/avif/squidgame2.avif"
+                            type="image/avif"
+                          />
+                          <img
+                            class="w-full"
+                            src="img/webp/squidgame2.webp"
+                            alt="mit spil 2"
+                          />
+                        </picture>
+                      </li>
+                      <li class="splide__slide">
+                        <picture class="flex flex-col items-center">
+                          <source
+                            class=""
+                            srcset="img/avif/squidgame3.avif"
+                            type="image/avif"
+                          />
+                          <img
+                            class="w-full"
+                            src="img/webp/squidgame3.webp"
+                            alt="mit spil 3"
+                          />
+                        </picture>
+                      </li>
+                      <li class="splide__slide">
+                        <picture class="flex flex-col items-center">
+                          <source
+                            class=""
+                            srcset="img/avif/squidgame4.avif"
+                            type="image/avif"
+                          />
+                          <img
+                            class="w-full"
+                            src="img/webp/squidgame4.webp"
+                            alt="mit spil 4"
+                          />
+                        </picture>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="pl-8 md:pl-36">
+            <h3 class="pb-8 font-font2 text-lg md:text-3xl">Customise Me</h3>
+          </div>
+          <div class="grid gap-10 md:grid-cols-2">
+            <div class="mx-8 flex items-center">
+              <section
+                id="splide3"
+                class="splide"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <picture class="flex flex-col items-center">
+                        <source
+                          class=""
+                          srcset="img/avif/customizeme1.avif"
+                          type="image/avif"
+                        />
+                        <img
+                          class="w-full"
+                          src="img/webp/customizeme1.webp"
+                          alt="mit redesign af CustomiseMe's homepage"
+                        />
+                      </picture>
+                    </li>
+                    <li class="splide__slide">
+                      <picture class="flex flex-col items-center">
+                        <source
+                          class=""
+                          srcset="img/avif/customizeme2.avif"
+                          type="image/avif"
+                        />
+                        <img
+                          class="w-full"
+                          src="img/webp/customizeme2.webp"
+                          alt="mit redesign af CustomiseMe's reviews"
+                        />
+                      </picture>
+                    </li>
+                    <li class="splide__slide">
+                      <picture class="flex flex-col items-center">
+                        <source
+                          class=""
+                          srcset="img/avif/customizeme3.avif"
+                          type="image/avif"
+                        />
+                        <img
+                          class="w-full"
+                          src="img/webp/customizeme3.webp"
+                          alt="mit redesign af CustomiseMe's produktside"
+                        />
+                      </picture>
+                    </li>
+                    <li class="splide__slide">
+                      <picture class="flex flex-col items-center">
+                        <source
+                          class=""
+                          srcset="img/avif/customisestep1.avif"
+                          type="image/avif"
+                        />
+                        <img
+                          class="w-full"
+                          src="img/webp/customisestep1.webp"
+                          alt="mit redesign af CustomiseMe's step-by-step CHOOSE THE ESSENTIAL OILS"
+                        />
+                      </picture>
+                    </li>
+                    <li class="splide__slide">
+                      <picture class="flex flex-col items-center">
+                        <source
+                          class=""
+                          srcset="img/avif/customisestep2.avif"
+                          type="image/avif"
+                        />
+                        <img
+                          class="w-full"
+                          src="img/webp/customisestep2.webp"
+                          alt="mit redesign af CustomiseMe's step-by-step guide CHOOSE A COLOR"
+                        />
+                      </picture>
+                    </li>
+                    <li class="splide__slide">
+                      <picture class="flex flex-col items-center">
+                        <source
+                          class=""
+                          srcset="img/avif/customisestep3.avif"
+                          type="image/avif"
+                        />
+                        <img
+                          class="w-full"
+                          src="img/webp/customisestep3.webp"
+                          alt="mit redesign af CustomiseMe's step-by-step guide CHOOSE A SHAPE"
+                        />
+                      </picture>
+                    </li>
+                    <li class="splide__slide">
+                      <picture class="flex flex-col items-center">
+                        <source
+                          class=""
+                          srcset="img/avif/customiselaststep.avif"
+                          type="image/avif"
+                        />
+                        <img
+                          class="w-full"
+                          src="img/webp/customiselaststep.webp"
+                          alt="mit redesign af CustomiseMe's step-by-step guide last step"
+                        />
+                      </picture>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+            <div class="mx-8">
+              <details>
+                <summary class="cursor-pointer font-font2 text-lg md:text-xl">
+                  <span class="pl-3 md:pl-6">What they asked for</span>
+                </summary>
+                <p class="pt-5">
+                  For this school project I was assigned with a company named
+                  CustomiseMe, who needed a better solution for their page where
+                  you can build a customised soap. The requirements were to make
+                  a cool and user friendly 'create soap' page, as well as create
+                  dynamic productlist and productview pages.
+                </p>
+              </details>
+              <details>
+                <summary class="cursor-pointer font-font2 text-lg md:text-xl">
+                  <span class="pl-3 md:pl-6">My role</span>
+                </summary>
+                <p class="pt-5">
+                  <span class="font-semibold">As a UX Designer</span> I did a
+                  sender research about the company by doing a BMC to find out
+                  who they are and what values they have. Afterwards I did a
+                  benchmark research to find out how other companies solve this
+                  step-by-step purchase, and lastly a trend research to see
+                  which trends was currently on the market within their niche.
+                  Apart from this I also did information architecture to find
+                  out which pages should include what information. Lastly I
+                  created some wireframes to set up how the information and
+                  elements for each pages should be placed.<br /><br />
+                  <span class="font-semibold">As a UI Designer</span> I created
+                  a design guide which includes: <br />
+                  - The logo <br />
+                  - The typography, which font to use as headings and
+                  paragraphs, which sizes and the weight.<br />
+                  - The colors that should be used and where.<br />
+                  - The photography style. <br /><br />
+                  <span class="font-semibold">As a Web Developer</span> I coded
+                  the website with HTML and CSS. For the product database i used
+                  Restdb and used parameters to fetch each product.<br /><br />
+                </p>
+              </details>
+
+              <details>
+                <summary class="cursor-pointer font-font2 text-lg md:text-xl">
+                  <span class="pl-3 md:pl-6">Solution</span>
+                </summary>
+                <div class="flex flex-col">
+                  <p class="pt-5">
+                    The final website had a softer look than their original page
+                    and had a much more visual and user friendly 'create soap'
+                    page.
+                  </p>
+                </div>
+              </details>
+              <a
+                class="flex justify-center"
+                href="https://mdesign.dk/CustomiseMe/index.html"
+                ><div
+                  class="font-semmibold mt-10 w-48 bg-gradient-to-b from-red-600 to-orange-500 px-4 py-3 text-center text-white"
+                >
+                  See the website here
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flex h-screen items-center">
+          <div>
+            <h3 class="pb-8 pl-7 font-font2 text-lg md:pl-36 md:text-3xl">
+              Vogelius Glow
+            </h3>
+            <div class="grid gap-10 md:grid-cols-2">
+              <div class="mx-8">
+                <details>
+                  <summary class="cursor-pointer font-font2 text-lg md:text-xl">
+                    <span class="pl-3 md:pl-6">What they asked for</span>
+                  </summary>
+                  <p class="pt-5">
+                   Vogelius Glow is a company I have worked for part time, whenever the have small tasks they need to be solved. So far I have been requested to create posters for events/newspaper, photoshop photoes or make a menucard.
+                  </p>
+                </details>
+                <details>
+                  <summary class="cursor-pointer font-font2 text-lg md:text-xl">
+                    <span class="pl-3 md:pl-6">My role</span>
+                  </summary>
+                  <p class="pt-5">
+                    The program I have used mostly is Photoshop to edit pictures that needed fix-ups and to create posters for the newspaper, Instagram and to hang up physically at a school. <br> Other programs I have used is figma to create their new menucard for the store, where they after summer wanted a new identity to the menucard, so I recreated it in both a vinter and summer version.
+                  </p>
+                </details>
+
+                <details>
+                  <summary class="cursor-pointer font-font2 text-lg md:text-xl">
+                    <span class="pl-3 md:pl-6">Solution</span>
+                  </summary>
+                  <div class="flex flex-col">
+                    <p class="pt-5">
+                      These small tasks have increased my way of problemsolving, as I have to come up with ideas and learn new skills to meet their needs.
+                    </p>
+                  </div>
+                </details>
+                
+              </div>
+              <div class="-order-1 mx-8 flex items-center md:order-1">
+                <section
+                  id="splide4"
+                  class="splide"
+                  aria-label="Splide Basic HTML Example"
+                >
+                  <div class="splide__track">
+                    <ul class="splide__list">
+                      <li class="splide__slide">
+                        <picture class="flex flex-col items-center">
+                          <source
+                            class=""
+                            srcset="img/avif/menucards.avif"
+                            type="image/avif"
+                          />
+                          <img
+                            class="w-full"
+                            src="img/webp/menucards.webp"
+                            alt="Billede af menukort jeg har lavet"
+                          />
+                        </picture>
+                      </li>
+                      <li class="splide__slide">
+                        <picture class="flex flex-col items-center">
+                          <source
+                            class=""
+                            srcset="img/avif/instagramposts.avif"
+                            type="image/avif"
+                          />
+                          <img
+                            class="w-full"
+                            src="img/webp/instagramposts.webp"
+                            alt="Billde af instagramposts jeg har lavet"
+                          />
+                        </picture>
+                      </li>
+                      <li class="splide__slide">
+                        <picture class="flex flex-col items-center">
+                          <source
+                            class=""
+                            srcset="img/avif/guldsmykke.avif"
+                            type="image/avif"
+                          />
+                          <img
+                            class="w-full"
+                            src="img/webp/guldsmykke.webp"
+                            alt="Billede af guldsmykke jeg har redigeret"
+                          />
+                        </picture>
+                      </li>
+                      <li class="splide__slide">
+                        <picture class="flex flex-col items-center">
+                          <source
+                            class=""
+                            srcset="img/avif/silversmykke.avif"
+                            type="image/avif"
+                          />
+                          <img
+                            class="w-full"
+                            src="img/webp/silversmykke.webp"
+                            alt="Billede af sølvsmykke jeg har redigeret"
+                          />
+                        </picture>
+                      </li>
+                      <li class="splide__slide">
+                        <picture class="flex flex-col items-center">
+                          <source
+                            class=""
+                            srcset="img/avif/posters.avif"
+                            type="image/avif"
+                          />
+                          <img
+                            class="w-full"
+                            src="img/webp/posters.webp"
+                            alt="Billede af avisreklame jeg har lavet"
+                          />
+                        </picture>
+                      </li>
+                      <li class="splide__slide">
+                        <picture class="flex flex-col items-center">
+                          <source
+                            class=""
+                            srcset="img/avif/tilskolen.avif"
+                            type="image/avif"
+                          />
+                          <img
+                            class="w-full"
+                            src="img/webp/tilskolen.webp"
+                            alt="Plakat til ophæng på skole"
+                          />
+                        </picture>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contactsection"
+        class="flex flex-col overflow-hidden border-b-2 border-red-600 lg:h-screen lg:flex-row"
+      >
+        <div
+          class="flex flex-col items-center justify-center md:h-screen lg:w-1/2"
+        >
+          <picture
+            class="mb-7 mt-20 flex w-3/5 flex-col items-center border-2 border-red-600 sm:w-2/5 md:w-1/4 lg:hidden"
+          >
+            <source
+              class=""
+              srcset="img/avif/billedeafmig.avif"
+              type="image/avif"
+            />
+            <img
+              class="w-full"
+              src="img/webp/billedeafmig.webp"
+              alt="Billede af mig til mobilskærm"
+            />
+          </picture>
+          <div class="w-[250px] sm:w-[300px] lg:mx-40 lg:w-2/3">
+            <h2 class="pb-11 font-font2 text-2xl sm:text-4xl md:pb-8">
+              Contacts
+            </h2>
+            <p>
+              Please consider me as your new intern, I look forward hearing from
+              you! You can contact me on following:
+            </p>
+            <div class="py-4">
+              <p><span class="font-bold">Mail:</span> mathilde@krogen5.dk</p>
+              <p>
+                <span class="font-bold">Linked in:</span> Mathilde Anker
+                Rasmussen
+              </p>
+            </div>
+            <div class="flex justify-start gap-10 pt-5 pb-20">
+              <a href="mailto:mathilde@krogen5.dk" target="_blank"
+                ><img src="img/svg/mail.svg" alt="my mail" /></a
+              ><a
+                href="https://www.linkedin.com/in/mathilde-anker-rasmussen-2a20b421a/"
+                target="_blank"
+                ><img src="img/svg/linkedin.svg" alt="linkedin profile"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="relative hidden h-screen w-1/2 items-center justify-center lg:visible lg:flex"
+        >
+          <img class="w-7xl absolute -z-10" src="img/linjer.svg" alt="linjer" />
+          <picture
+            class="z-10 flex w-1/2 flex-col items-center border-2 border-red-600"
+          >
+            <source
+              class=""
+              srcset="img/avif/billedeafmig.avif"
+              type="image/avif"
+            />
+            <img
+              class="w-full"
+              src="img/webp/billedeafmig.webp"
+              alt="Billede af mig"
+            />
+          </picture>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gradient-to-t to-red-600 from-orange-500">
+      <div class="flex flex-col md:flex-row items-center justify-evenly py-5 text-white">
+        <p class="py-5">
+          Created by <span class="font-bold">Mathilde Anker Rasmussen</span>
+        </p>
+        <p class="py-5">Kea student - Københavns Erhvervsakademi</p>
+      </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
