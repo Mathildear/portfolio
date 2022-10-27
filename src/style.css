@@ -16,4 +16,8 @@
         padding: 2rem;
 
     }
+
+    body {
+        scroll-behaviour: smooth;
+    }
 }
