@@ -7,4 +7,5 @@ new Splide( '#splide-mygame' ).mount();
 new Splide( '#splide-customizeme' ).mount();
 new Splide( '#splide-vogelius' ).mount();
 new Splide( '#splide-madglad' ).mount();
+new Splide( '#splide-dfic' ).mount();
 import '@splidejs/splide/css';
