@@ -1,9 +1,10 @@
 import "./style.css";
 import { animate, stagger, inView, scroll, timeline } from "motion";
 import Splide from '@splidejs/splide';
-new Splide( '#splide0' ).mount();
-new Splide( '#splide1' ).mount();
-new Splide( '#splide2' ).mount();
-new Splide( '#splide3' ).mount();
-new Splide( '#splide4' ).mount();
+new Splide( '#splide-Girltalk' ).mount();
+new Splide( '#splide-kreass' ).mount();
+new Splide( '#splide-mygame' ).mount();
+new Splide( '#splide-customizeme' ).mount();
+new Splide( '#splide-vogelius' ).mount();
+new Splide( '#splide-madglad' ).mount();
 import '@splidejs/splide/css';
